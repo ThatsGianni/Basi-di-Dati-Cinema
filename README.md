@@ -9,7 +9,6 @@ visualizzare i biglietti acquistati precedentemente in modo da poter
 rintracciare i clienti qual ora ce ne fosse bisogno.
 
 [Nel dettaglio]
-
 Amministratore:
 <ul><li>[Inserire una programmazione.]</li>
 <li>[Inserire nuovi film]</li>
