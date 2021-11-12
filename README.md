@@ -16,11 +16,13 @@ Amministratore:
 <li> [Inserire cinema e sale]</i>
 <li>[Visualizzazione biglietti venduti in precedenza]</li>
 <li> [Visualizzazione vendite di eventi non ancora terminati]</li></ul>
+
 Utente:
  <ul><li>[Registrazione/Login]
 <li>[Prenotazione biglietto e scelta posto libero.]</li>
 <li>[Cancellazione prenotazione]</li>
 <li>[Visualizzazione delle programmazioni e dei cinema accreditati.]</li></ul>
+
 Operazioni Batch:
 <ul><li>[Cancellazioni delle programmazioni terminate]</li>
 <li> [Registrazioni dei biglietti di precedenti proiezioni]</li>
