@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"unisa.studenti.it.Entity","l":"Telefono"}]
