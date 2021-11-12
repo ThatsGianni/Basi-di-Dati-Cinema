@@ -11,33 +11,33 @@ rintracciare i clienti qual ora ce ne fosse bisogno.
 [Nel dettaglio]
 
 Amministratore:
-• [Inserire una programmazione.]
-• [Inserire nuovi film.]
-• [Inserire cinema e sale.]
-• [Visualizzazione biglietti venduti in precedenza]
-• [Visualizzazione vendite di eventi non ancora terminati]
+<ul><li>[Inserire una programmazione.]</li>
+<li>[Inserire nuovi film]</li>
+<li> [Inserire cinema e sale]</i>
+<li>[Visualizzazione biglietti venduti in precedenza]</li>
+<li> [Visualizzazione vendite di eventi non ancora terminati]</li></ul>
 Utente:
-• [Registrazione/Login]
-• [Prenotazione biglietto e scelta posto libero.]
-• [Cancellazione prenotazione.]
-• [Visualizzazione delle programmazioni e dei cinema accreditati.]
+ <ul><li>[Registrazione/Login]
+<li>[Prenotazione biglietto e scelta posto libero.]</li>
+<li>[Cancellazione prenotazione]</li>
+<li>[Visualizzazione delle programmazioni e dei cinema accreditati.]</li></ul>
 Operazioni Batch:
-• [Cancellazioni delle programmazioni terminate.]
-• [Registrazioni dei biglietti di precedenti proiezioni.]
-• [Cancellazioni di biglietti di proiezioni precedenti.]
+<ul><li>[Cancellazioni delle programmazioni terminate]</li>
+<li> [Registrazioni dei biglietti di precedenti proiezioni]</li>
+<li>[Cancellazioni di biglietti di proiezioni precedenti.]</ul>
 
 
 [Mapping dello schema er]
 
--UTENTI (username, nome, cognome, e-mail)
--CONSULTAZIONI (username: UTENTI, cod_prog: PROGRAMMAZIONI)
--PROGRAMMAZIONI (cod_prog, data, prezzo, id_film: FILM, cod_sala: SALE,data_inizio_disp,data_fine_disp)
--FILM (Id_film, nome, anno, durata, recensione, distributore, genere, Paese,id_regista: REGISTI)
--REGISTI (id_regista, cognome, nome)
--ATTORI (id_attore, cognome, nome)
--RECITAZIONI (Id_film: FILM, id_attore: ATTORI)
--CINEMA (id_cinema, nome, indirizzo, città, nazione, numero_sale)
--TELEFONI (numero, id_cinema: CINEMA)
--SALE (cod_sala, nums, superficie, capienza, id_cinema: CINEMA)
--POSTI (cod_posto, num_fila, num_colonne, cod_sala: SALE)
--BIGLIETTI (id_biglietto, data_emissione, username: UTENTE, cod_posto: POSTI,cod_prog:PROGRAMMAZIONI)
+<ol><li>UTENTI (username, nome, cognome, e-mail)</li>
+<li>CONSULTAZIONI (username: UTENTI, cod_prog: PROGRAMMAZIONI)</li>
+<li>PROGRAMMAZIONI (cod_prog, data, prezzo, id_film: FILM, cod_sala: SALE,data_inizio_disp,data_fine_disp)</li>
+<li>FILM (Id_film, nome, anno, durata, recensione, distributore, genere, Paese,id_regista: REGISTI)</li>
+<li>REGISTI (id_regista, cognome, nome)</li>
+<li>ATTORI (id_attore, cognome, nome)</li>
+<li>RECITAZIONI (Id_film: FILM, id_attore: ATTORI)</li>
+<li>CINEMA (id_cinema, nome, indirizzo, città, nazione, numero_sale)</li>
+<li>TELEFONI (numero, id_cinema: CINEMA)</li>
+<li>SALE (cod_sala, nums, superficie, capienza, id_cinema: CINEMA)</li>
+<li>POSTI (cod_posto, num_fila, num_colonne, cod_sala: SALE)</li>
+<li>BIGLIETTI (id_biglietto, data_emissione, username: UTENTE, cod_posto: POSTI,cod_prog:PROGRAMMAZIONI).</li></ol>
