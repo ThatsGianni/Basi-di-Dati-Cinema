@@ -1,4 +1,4 @@
-# Basi-di-Dati-Cinema
+# BookYourTicket
 
 Il progetto è una piccolo esempio di realizzazione di una Base di Dati per la prenotazione di un biglietto al cinema.
 Sarà possibile effettuare una prenotazioni nei vari cinema accreditati,
