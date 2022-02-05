@@ -10,6 +10,9 @@ rintracciare i clienti qual ora ce ne fosse bisogno.
 
 [Nel dettaglio]
 
+La parte di persistenza dell'applicazione è stata realizzata con MySQL e si tratta di un Database di tipo relazionare.
+Per l'applicazione invece è stato utilizzato Java come tecnlogia e la libreria JDBC per creare la connessione al database per effettuare operazioni CRUD.
+
 Amministratore:
 <ul><li>[Inserire una programmazione.]</li>
 <li>[Inserire nuovi film]</li>
