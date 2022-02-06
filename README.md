@@ -1,38 +1,31 @@
-# BookYourTicket
+# BookYourTicket🎫
 
-Il progetto è una piccolo esempio di realizzazione di una Base di Dati per la prenotazione di un biglietto al cinema.
-Sarà possibile effettuare una prenotazioni nei vari cinema accreditati,
-all’utente sarà richiesto di registrarsi per effettuare quest’operazione.
-Viene fornito agli amministratori la facoltà di gestire le programmazioni
-e inserire nuovi film, cinema e sale, inoltre è possibile da quest’ultimo
-visualizzare i biglietti acquistati precedentemente in modo da poter
-rintracciare i clienti qual ora ce ne fosse bisogno.
+The project is a small example of the creation of a database for booking a cinema ticket. It will be possible to make reservations in the various accredited cinemas, the user will be required to register to carry out this operation. Administrators are given the ability to manage schedules and insert new films, cinemas and theaters, and it is also possible for the latter to view tickets purchased previously so that customers can be traced back when needed.
 
-[Nel dettaglio]
+<h2>[Details]📜</h2>
 
-La parte di persistenza dell'applicazione è stata realizzata con MySQL e si tratta di un Database di tipo relazionare.
-Per la parte logica invece è stato utilizzato Java come tecnlogia e la libreria JDBC per creare la connessione al database per effettuare operazioni CRUD.
+<p>The persistence part of the application was created with MySQL and it is a relational database.
+For the logical part, on the other hand, Java was used as a technology and the JDBC library to create the connection to the database to perform CRUD operations.</p>
 
-Amministratore:
-<ul><li>[Inserire una programmazione.]</li>
-<li>[Inserire nuovi film]</li>
-<li> [Inserire cinema e sale]</i>
-<li>[Visualizzazione biglietti venduti in precedenza]</li>
-<li> [Visualizzazione vendite di eventi non ancora terminati]</li></ul>
+<h3>Administrator:</h3>
+<ul> <li> [Enter a schedule.] </li>
+<li> [Insert new movies] </li>
+<li> [Insert cinemas and theaters] </i>
+<li> [View Previously Sold Tickets] </li>
+<li> [View sales of unfinished events] </li> </ul>
 
-Utente:
- <ul><li>[Registrazione/Login]
-<li>[Prenotazione biglietto e scelta posto libero.]</li>
-<li>[Cancellazione prenotazione]</li>
-<li>[Visualizzazione delle programmazioni e dei cinema accreditati.]</li></ul>
+<h3>User:</h3>
+<ul> <li> [Registration / Login]
+<li> [Ticket reservation and choice of free seat.] </li>
+<li> [Cancellation of reservation] </li>
+<li> [Display of programs and accredited cinemas.] </li> </ul>
 
-Operazioni Batch:
-<ul><li>[Cancellazioni delle programmazioni terminate]</li>
-<li> [Registrazioni dei biglietti di precedenti proiezioni]</li>
-<li>[Cancellazioni di biglietti di proiezioni precedenti.]</ul>
+<h3>Batch operations:</h3>
+<ul> <li> [Schedule cancellations finished] </li>
+<li> [Ticket cancellations from previous screenings.] </ul>
 
 
-[Mapping dello schema er]
+<h2>[Mapping]🗄️</h2>
 
 <ol><li>UTENTI (username, nome, cognome, e-mail)</li>
 <li>CONSULTAZIONI (username: UTENTI, cod_prog: PROGRAMMAZIONI)</li>
@@ -46,3 +39,7 @@ Operazioni Batch:
 <li>SALE (cod_sala, nums, superficie, capienza, id_cinema: CINEMA)</li>
 <li>POSTI (cod_posto, num_fila, num_colonne, cod_sala: SALE)</li>
 <li>BIGLIETTI (id_biglietto, data_emissione, username: UTENTE, cod_posto: POSTI,cod_prog:PROGRAMMAZIONI).</li></ol>
+
+<h2>[Technologies used]⌨️</h2>
+<ul><li><a href="https://www.oracle.com/java/technologies/javase/11-relnotes.html">Java™ SE Development Kit </a></li><br>
+<li><a href="https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-28.html">MySQL 8.0</a></li>
