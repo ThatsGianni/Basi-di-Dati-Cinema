@@ -1,6 +1,6 @@
 # BookYourTicket🎫
 
-The project is a small example of the creation of a database for booking a cinema ticket. It will be possible to make reservations in the various accredited cinemas, the user will be required to register to carry out this operation. Administrators are given the ability to manage schedules and insert new films, cinemas and theaters, and it is also possible for the latter to view tickets purchased previously so that customers can be traced back when needed.
+🎥The project is a small example of the creation of a database for booking a cinema ticket. It will be possible to make reservations in the various accredited cinemas, the user will be required to register to carry out this operation. Administrators are given the ability to manage schedules and insert new films, cinemas and theaters, and it is also possible for the latter to view tickets purchased previously so that customers can be traced back when needed.
 
 <h2>[Details]📜</h2>
 
